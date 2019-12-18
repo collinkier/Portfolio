@@ -1,0 +1,87 @@
+body{
+    background-color: grey;
+    down: 20px;
+}
+
+#placeholder{
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 25%;
+    clear: both;
+    padding: 10px;
+}
+
+.firstBlock{
+    position: relative; 
+    background-color: wheat;
+    height; 400px;
+    width: 75%;
+    text-align: center;
+    padding: 20px;
+    top: 100px; 
+    left: 180px;
+    down: 100px;
+    border-style: solid;
+    border-width: 5px; 
+}
+
+h1 {
+    background-color: darkblue;
+    position: relative;
+    /* float: left; */
+    width: 12%;
+    padding: 10px;
+    left: 50px;
+    color: white;
+    clear: both;
+}
+
+#intro{
+    font-size: 20px;
+    color: #777777;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    background-color: white;
+    /* float: right;  */
+    margin-top: 5px;
+    clear: both;
+}
+
+#about{ 
+    float: right;
+    padding: 19px;
+    position: absolute;
+    background-color: darkblue;
+    top: 0px;
+    right: 50px;
+}
+#portfolio{ 
+    float:right;
+    padding: 19px;
+    position: absolute;
+    background-color: darkblue;
+    top: 0px;
+    right: 300px;
+}
+#contact{ 
+    float: right;
+    padding: 19px;
+    position: absolute;
+    background-color: darkblue;
+    top: 0px;
+    right: 170px;
+}
+
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+/* h3{ */
+    float: right;
+    clear: both;
+}
